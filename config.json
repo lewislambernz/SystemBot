@@ -1,12 +1,12 @@
 {
     "token": "",
     "language": "en",
-    "prefix": "!",
+    "prefix": ".",
     "mongodbUri": "",
     "excessCommands": {
         "utility": true,
         "other": true,
-        "hentai": true,
+        "hentai": false,
         "troll": true,
         "levelling" : true,
         "lavalink" : true,
@@ -18,23 +18,23 @@
         "report" : true
     },
     "categories": {
-        "anime": true,
+        "anime": false,
         "basic": true,
         "utility": true,
         "moderation": true,
         "core" :true,
         "lavalink": true,
         "fun": true,
-        "distube": true,
+        "distube": false,
         "setups": true
     },
      "lavalink": {
         "lavalink": {
-        "identifier": "GlaceYT",
-        "password": "glaceyt",
-        "host": "193.226.78.187",
-        "port":  9372,
-        "secure": false
+        "identifier": "lava",
+        "password": "https://dsc.gg/ajidevserver",
+        "host": "lava-all.ajieblogs.eu.org",
+        "port":  443,
+        "secure": true
       }
     }, 
     "spotifyClientId": "f71a3da30e254962965ca2a89d6f74b9",

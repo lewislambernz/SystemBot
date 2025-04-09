@@ -26,7 +26,7 @@ const path = require('path');
 const config = require('../../config.json');
 const cmdIcons = require('../../UI/icons/commandicons');
 
-flags:64
+flags: 64
 
 module.exports = {
     data: new SlashCommandBuilder()
